@@ -8,7 +8,7 @@ export type TextFieldProps = {
 
 const TextField = ({ icon, ...props }: TextFieldProps) => (
   <S.Wrapper>
-    <S.Icon>{icon}</S.Icon>
+    {!!icon && <S.Icon>{icon}</S.Icon>}
     <S.Input {...props} />
   </S.Wrapper>
 )

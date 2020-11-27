@@ -4,11 +4,14 @@ import { UserNinja } from '@styled-icons/fa-solid'
 import TextField, { TextFieldProps } from '.'
 
 export default {
-  title: 'TextField',
+  title: 'Form/TextField',
   component: TextField,
   args: {
     icon: <UserNinja />,
     placeholder: 'Your nickname'
+  },
+  argTypes: {
+    icon: { type: '' }
   },
   parameters: {
     backgrounds: {
