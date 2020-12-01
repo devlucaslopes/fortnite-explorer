@@ -11,7 +11,7 @@ import * as S from './styles'
 const Form = () => {
   const [nickname, setNickname] = useState('')
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     Router.push(`/${nickname}`)
   }
