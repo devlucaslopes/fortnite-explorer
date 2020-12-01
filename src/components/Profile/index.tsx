@@ -8,7 +8,7 @@ import { AccountProps, GameStatsProps } from 'pages/[nickname]'
 
 import * as S from './styles'
 
-type ProfileProps = {
+export type ProfileProps = {
   account: AccountProps
 
   stats: {
