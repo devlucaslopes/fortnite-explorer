@@ -1,3 +1,11 @@
+import Base from 'templates/Base'
+
+import Form from 'components/Form'
+
 export default function Home() {
-  return <h1>who is noob?</h1>
+  return (
+    <Base>
+      <Form />
+    </Base>
+  )
 }

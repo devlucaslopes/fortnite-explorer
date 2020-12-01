@@ -8,7 +8,7 @@ export default {
   component: Button,
   args: {
     icon: <SearchAlt />,
-    label: 'Procurar'
+    children: 'Procurar'
   }
 } as Meta
 

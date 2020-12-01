@@ -3,15 +3,9 @@ import { darken } from 'polished'
 
 export const Wrapper = styled.button`
   ${({ theme }) => css`
-    width: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: ${theme.spacings.xxsmall} 0;
-    font-size: ${theme.font.sizes.small};
-    color: ${theme.colors.white};
+    padding: ${theme.spacings.xsmall};
     background: ${theme.colors.secondary};
-    border: 0;
+    border: 1px solid ${theme.colors.secondary};
     outline: 0;
     border-radius: ${theme.border.radius};
     cursor: pointer;
@@ -27,7 +21,6 @@ export const Icon = styled.div`
     > svg {
       width: 1.6rem;
       color: ${theme.colors.white};
-      margin-right: ${theme.spacings.xxsmall};
     }
   `}
 `
