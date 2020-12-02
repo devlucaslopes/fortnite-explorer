@@ -1,5 +1,7 @@
 
-![Fornite Explorer](https://logospng.org/download/fortnite/logo-fortnite-2048.png)
+![Fornite Explorer](https://logodownload.org/wp-content/uploads/2018/04/fortnite-logo.png)
+
+[Online version](https://fortnite-explorer.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
@@ -11,7 +13,7 @@ This project uses lot of stuff as:
 - [TypeScript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
-- [Jest](https://jestjs.io/)
+- [Jest](https://jestjs.io/) **not yet**
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
 - [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
@@ -42,7 +44,5 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
-
-[Demo](https://fortnite-explorer.vercel.app/)
 
 
